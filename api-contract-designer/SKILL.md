@@ -84,15 +84,15 @@ Load the relevant checklist:
 
 Use this format for each issue found:
 
-```
+\`\`\`
 **[SEVERITY] path.to.field**
 **Category:** <category>
 **Issue:** <what's wrong and why it matters>
 **Fix:**
-```json
+\`\`\`json
 <corrected JSON snippet>
-```
-```
+\`\`\`
+\`\`\`
 
 Severity levels:
 - 🔴 **CRITICAL** — Invalid spec, missing required fields, security exposure
